@@ -30,6 +30,6 @@
 
 @include('Sections.WhyUs')
 
-
+@include('Sections.FAQ')
 
 @endsection

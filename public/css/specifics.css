@@ -94,3 +94,16 @@
 .why_icon{
     font-size: 7vw;
 }
+
+/* faq sections */
+.faq_card{
+    border-top: 3px solid rgb(143, 143, 143);
+    padding: 0vh 2vw;
+}
+.question_title{
+    color: rgb(143, 143, 143);
+}
+.answer {
+  height: auto;
+  padding-bottom: 2vh;
+}

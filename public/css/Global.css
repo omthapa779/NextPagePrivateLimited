@@ -29,6 +29,11 @@ h4{
     --white_color: white;
 }
 
+
+/* hiddens */
+.overflow_hidden{
+    overflow: hidden;
+}
 /* colors */
 .primary-color{
     color: var(--primary_color);
@@ -154,6 +159,9 @@ h4{
 }
 .col_4{
     grid-template-columns: repeat(4, 1fr);
+}
+.col_middle_3{
+    grid-template-columns: 1fr 3fr 1fr;
 }
 .col_left_2{
     grid-template-columns: 2fr 1fr;
