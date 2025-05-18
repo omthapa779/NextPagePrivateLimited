@@ -15,12 +15,12 @@
         <img src="{{ asset('./resources/images/logo.png') }}" alt="Logo for Next Page Pvt. Ltd." class="h_100">
 
         <div class="link_holder_nav flex align_c h_100 gap_1vw primary_font ">
-            <h4 class="font_w500">Home</h4>
-            <h4 class="font_w500">About</h4>
-            <h4 class="font_w500">Services</h4>
-            <h4 class="font_w500">FAQ</h4>
-            <h4 class="font_w500">Contact</h4>
-            <h2 class="font_w500 mobile_menu"><i class="ri-menu-line"></i></h2>
+            <a href="/"><a href="/"><h4 class="font_w500 black_color">Home</h4></a>
+            <a href="/about"><h4 class="font_w500 black_color">About</h4></a>
+            <a href="/"><h4 class="font_w500 black_color">Services</h4></a>
+            <a href="/"><h4 class="font_w500 black_color">FAQ</h4></a>
+            <a href="/"><h4 class="font_w500 black_color">Contact</h4></a>
+            <h2 class="font_w500 black_color mobile_menu"><i class="ri-menu-line"></i></h2>
         </div>
     </div>
     <div class="main_container w_100">

@@ -36,6 +36,7 @@ h5{
     --primary_color: #0a073d;
     --secondary_color: #9e792b;
     --white_color: white;
+    --black_color: black;
 }
 
 
@@ -52,6 +53,9 @@ h5{
 }
 .white_color{
     color: var(--white_color);
+}
+.black_color{
+    color: var(--black_color);
 }
 
 /* widths */
@@ -83,7 +87,7 @@ h5{
 }
 .h_50{
     height: 50%;
-    
+
 }
 .h_70{
     height: 70%;

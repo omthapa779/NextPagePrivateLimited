@@ -125,6 +125,31 @@
 .copyright{
     display: none;
 }
+
+/* teams */
+.team_card{
+    position: relative;
+}
+.team_image{
+    position: absolute;
+    z-index: 3;
+}
+.team_overlay{
+    position: absolute;
+    z-index: 5;
+    background-color: black;
+    opacity: 30%;
+}
+.team_content_holder{
+    position: absolute;
+    z-index: 7;
+    background-color: white;
+    width: 70%;
+    height: 15%;
+    margin-top: 100%;
+    padding: 0vh 0.5vw;
+}
+
 @media (max-width: 999px){
     .mobile_menu {
         display: block !important;
@@ -180,6 +205,17 @@
     .footer {
         grid-template-columns: 1fr 1.2fr 1.2fr !important;
         height: 50vh;
+    }
+    .mission_vision {
+        gap: 2vh;
+    }
+    .team_card{
+        height: 35vh !important;
+    }
+    .team_content_holder{
+        height: 20%;
+        margin-top: 70%;
+        padding: 0vh 2vw;
     }
 }
 
@@ -241,5 +277,11 @@
     }
     .copyright{
         display: flex;
+    }
+    .team_holder {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    .team_content_holder {
+        margin-top: 60%;
     }
 }

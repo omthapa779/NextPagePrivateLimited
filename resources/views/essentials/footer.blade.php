@@ -11,8 +11,8 @@
         <h4>Quick Links</h4>
 
         <div class="link_holder mtop_2vh">
-            <a href=""><h5 class="font_w400 white_color">Home</h5></a>
-            <a href=""><h5 class="font_w400 white_color">About</h5></a>
+            <a href="/"><h5 class="font_w400 white_color">Home</h5></a>
+            <a href="/about"><h5 class="font_w400 white_color">About</h5></a>
             <a href=""><h5 class="font_w400 white_color">Services</h5></a>
             <a href=""><h5 class="font_w400 white_color">FAQ</h5></a>
             <a href=""><h5 class="font_w400 white_color">Contact</h5></a>
