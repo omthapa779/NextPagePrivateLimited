@@ -1,5 +1,5 @@
 <section class="faq w_100 h_100vh flex_cl justify_c padding_s5 primary_font">
-    <h1 class="line_h95">Frequently Asked <br> Questions</h1>
+    <h1 class="line_h95">Frequently Asked <br> <span class="secondary_color">Questions</span></h1>
 
     <div class="faq_holder w_100 h_fc flex_cl mtop_5vh">
         <div class="faq_card w_100 h_10vh overflow_hidden">

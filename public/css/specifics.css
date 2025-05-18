@@ -107,3 +107,12 @@
   height: auto;
   padding-bottom: 2vh;
 }
+
+/* contacts */
+.input{
+    padding: 2vh 1.5vw;
+    background-color: rgb(216, 216, 216);
+    border: none;
+    color: black;
+    font-size: 1vw;
+}

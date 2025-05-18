@@ -32,4 +32,6 @@
 
 @include('Sections.FAQ')
 
+@include('Sections.Contact')
+
 @endsection
