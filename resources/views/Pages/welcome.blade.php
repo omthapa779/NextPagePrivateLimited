@@ -4,7 +4,7 @@
 <section class="hero_section h_83vh w_100 flex padding_s5 position_relative">
     <div class="hero_content w_100 h_100 flex_cl justify_fe pd_bottom5">
         <h1 class="primary_font line_h90">THE LEADING <br> <span class="secondary_color ">USA VISA</span> <br>CONSULTANCY</h1>
-        <div class="flex gap_1vw mtop_2vh">
+        <div class="button_holder_hero flex gap_1vw mtop_2vh">
             <x-button variant="button_primary">Get Started</x-button>
             <x-button variant="button_secondary">Book a Consultation</x-button>
         </div>

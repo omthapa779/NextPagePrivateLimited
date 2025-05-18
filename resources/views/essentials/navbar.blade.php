@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{ asset('./css/Global.css') }}">
     <link rel="stylesheet" href="{{ asset('./css/specifics.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="{{ asset('./resources/favicon.ico') }}" type="image/x-icon">
 </head>
 <body>
 
@@ -19,14 +20,14 @@
             <h4 class="font_w500">Services</h4>
             <h4 class="font_w500">FAQ</h4>
             <h4 class="font_w500">Contact</h4>
-            <h4 class="font_w500 mobile_menu"><i class="ri-menu-line"></i></h4>
+            <h2 class="font_w500 mobile_menu"><i class="ri-menu-line"></i></h2>
         </div>
     </div>
     <div class="main_container w_100">
       @yield('content')
     </div>
     @include('essentials.footer')
-    
+
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>

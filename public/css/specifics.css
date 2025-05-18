@@ -60,7 +60,7 @@
     position: relative;
 }
 
-.service_title h3{
+.service_title h4{
     color: rgb(143, 143, 143);
     transition: all 0.5s ease;
 }
@@ -85,7 +85,7 @@
    opacity: 100%;
     transition: all 0.5s ease;
 }
-.service_card:hover .service_title>h3{
+.service_card:hover .service_title>h4{
     color: white;
     transition: all 0.5s ease;
 }
@@ -120,4 +120,126 @@
 /* footer */
 .footer{
     background-color: var(--primary_color);
+}
+
+.copyright{
+    display: none;
+}
+@media (max-width: 999px){
+    .mobile_menu {
+        display: block !important;
+    }
+    .link_holder_nav h4 {
+        display: none;
+    }
+    .image_holder {
+        opacity: 30%;
+    }
+    .navbar {
+        padding: 3vh 5vw;
+    }
+    .hero_content {
+        align-items: center !important;
+        text-align: center;
+    }
+    .custom_button{
+        font-size: 3vw;
+        padding: 2vw 5vw;
+    }
+    .about_paragraph h4 {
+        width: 90% !important;
+    }
+    .about_image>img{
+        margin-top: 10vh !important;
+    }
+    .why_title_holder h4 {
+        width: 100% !important;
+    }
+    .why_card {
+        gap: 2vh;
+    }
+    .why_icon {
+        font-size: 10vw;
+    }
+    .why_card_holder {
+        margin-top: 5vh !important;
+    }
+    .input{
+        font-size: 2.5vw;
+    }
+    .faq {
+        height: fit-content !important;
+        padding: 7vh 5vw !important;
+    }
+    .contact_image {
+        display: none;
+    }
+    .footer_logo h3 {
+        display: none;
+    }
+    .footer {
+        grid-template-columns: 1fr 1.2fr 1.2fr !important;
+        height: 50vh;
+    }
+}
+
+@media (max-width: 699px) {
+    .image_holder {
+        margin-left: 40%;
+    }
+    .button_holder_hero{
+        flex-direction: column !important;
+    }
+    .custom_button {
+        font-size: 5vw;
+        padding: 2vw 10vw;
+    }
+    .about_image img {
+        width: 90% !important;
+    }
+    .service_title {
+        margin-left: 5vw !important;
+    }
+    .why_card {
+        padding: 5vh 0vw !important;
+    }
+    .why_icon {
+        font-size: 15vw;
+    }
+    .question {
+        grid-template-columns: 0.25fr 1fr 0.2fr !important;
+    }
+    .input {
+        font-size: 4.5vw;
+    }
+    .contact_section form {
+        margin-top: 2vh;
+    }
+    .footer_logo {
+        height: 10vh !important;
+    }
+    .logo_part h4 {
+        display: none;
+    }
+    .footer {
+        grid-template-columns: repeat(1, 1fr) !important;
+        height: fit-content !important;
+        gap: 5vh !important;
+        padding: 4vh 7vw !important;
+    }
+    .socials {
+        justify-content: flex-start;
+        height: 7vh;
+    }
+    .footer_logo h3 {
+        display: block;
+        margin-left: 5vw;
+    }
+    .contact_footer {
+        height: fit-content;
+        max-height: 25vh;
+    }
+    .copyright{
+        display: flex;
+    }
 }

@@ -14,7 +14,10 @@ a{
     text-decoration: none;
 }
 h1{
-    font-size: 5.5vw;
+    font-size: 5vw;
+}
+h2{
+    font-size: 4vw;
 }
 h3{
     font-size: 1.7vw;
@@ -80,6 +83,7 @@ h5{
 }
 .h_50{
     height: 50%;
+    
 }
 .h_70{
     height: 70%;
@@ -89,6 +93,9 @@ h5{
 }
 .h_100vh{
     height: 100vh;
+}
+.h_5vh{
+    height: 5vh;
 }
 .h_10vh{
     height: 10dvh;
@@ -215,6 +222,9 @@ h5{
 .mleft_50{
     margin-left: 50%;
 }
+.mleft_55{
+    margin-left: 55%;
+}
 .mleft_60{
     margin-left: 60%;
 }
@@ -282,4 +292,46 @@ h5{
 /* opacity */
 .opacity_40{
     opacity: 40%;
+}
+
+
+@media (max-width: 999px){
+    h1{
+        font-size: 8vw;
+    }
+    h2 {
+        font-size: 5vw;
+    }
+    h3{
+        font-size: 3.5vw;
+    }
+    h4{
+        font-size: 2.5vw;
+    }
+    h5 {
+        font-size: 2.2vw;
+    }
+    .col_2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .col_4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 699px){
+    h1 {
+        font-size: 10vw;
+    }
+    h2 {
+        font-size: 8vw;
+    }
+    h3{
+        font-size: 5vw;
+    }
+    h4 {
+        font-size: 4.5vw;
+    }
+    h5 {
+        font-size: 3.5vw;
+    }
 }

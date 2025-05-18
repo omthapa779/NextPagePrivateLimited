@@ -18,8 +18,8 @@
             <a href=""><h5 class="font_w400 white_color">Contact</h5></a>
         </div>
     </div>
-    <div class="contact w_100 grid row_2">
-        <div class="contacts w_100">
+    <div class="contact_footer w_100 grid row_2">
+        <div class="contacts_footer w_100">
             <h4>Contact</h4>
 
             <div class="link_holder mtop_2vh ">
@@ -36,3 +36,6 @@
         </div>
     </div>
 </footer>
+<div class="copyright w_100 h_5vh flex justify_c align_c primary_font">
+    <h5>Site Built By Tilasmi.</h5>
+</div>
