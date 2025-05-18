@@ -10,6 +10,9 @@ html, body{
     overflow-x: hidden;
 }
 
+a{
+    text-decoration: none;
+}
 h1{
     font-size: 5.5vw;
 }
@@ -18,6 +21,9 @@ h3{
 }
 h4{
     font-size: 1.2vw;
+}
+h5{
+    font-size: 1vw;
 }
 
 :root{
@@ -65,6 +71,12 @@ h4{
 /* heights */
 .h_fc{
     height: fit-content;
+}
+.h_10{
+    height: 10%;
+}
+.h_30{
+    height: 30%;
 }
 .h_50{
     height: 50%;
@@ -165,6 +177,9 @@ h4{
 }
 .col_left_2{
     grid-template-columns: 2fr 1fr;
+}
+.col_left_3{
+    grid-template-columns: 1.5fr 0.5fr 0.5fr;
 }
 
 /* rows */

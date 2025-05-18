@@ -25,7 +25,8 @@
     <div class="main_container w_100">
       @yield('content')
     </div>
-
+    @include('essentials.footer')
+    
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
