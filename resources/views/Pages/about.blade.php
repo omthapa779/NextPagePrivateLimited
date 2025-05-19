@@ -1,5 +1,8 @@
 @extends('essentials.navbar')
 @section('title', 'About')
+@section('meta_description', 'Learn more about Next Page Pvt. Ltd., Nepal\'s trusted name in USA visa consulting.')
+@section('meta_keywords', 'About Next Page, Visa Consultancy, Nepal')
+@section('meta_author', 'Next Page Pvt. Ltd.')
 @section('content')
 <section class="about_us  w_100 h_83vh">
     <div class="about_content grid row_2 w_100 h_100 align_c primary_font padding_s5">

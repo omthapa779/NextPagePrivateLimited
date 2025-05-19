@@ -1,5 +1,8 @@
 @extends('essentials.navbar')
 @section('title', 'Services')
+@section('meta_description', 'Explore our comprehensive visa solutions including regular, premium, situational, immigrant, and other specialized visa processing services with Next Page Pvt. Ltd.')
+@section('meta_keywords', 'Visa Services, Visa Solutions, Regular Visa Processing, Premium Visa Processing, Immigrant Visa, Next Page Pvt. Ltd.')
+@section('meta_author', 'Next Page Pvt. Ltd.')
 @section('content')
 <section class="hero_section w_100 h_83vh primary_font padding_s5 grid col_2 overflow_hidden">
     <div class="left_service_hero w_100 h_100 flex_cl justify_fs padding_v10">

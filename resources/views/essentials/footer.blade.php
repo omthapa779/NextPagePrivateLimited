@@ -12,7 +12,7 @@
 
         <div class="link_holder mtop_2vh">
             <a href="/"><h5 class="font_w400 white_color">Home</h5></a>
-            <a href="/about"><h5 class="font_w400 white_color">About</h5></a>
+            <a href="/about-us"><h5 class="font_w400 white_color">About</h5></a>
             <a href="/services"><h5 class="font_w400 white_color">Services</h5></a>
             <a href="/FAQ"><h5 class="font_w400 white_color">FAQ</h5></a>
             <a href="/Contact"><h5 class="font_w400 white_color">Contact</h5></a>

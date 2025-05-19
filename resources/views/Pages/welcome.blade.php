@@ -1,5 +1,8 @@
 @extends('essentials.navbar')
 @section('title', 'Home')
+@section('meta_description', 'Next Page Pvt. Ltd. is Nepal\'s top U.S. visa consultancy. Start your visa journey today.')
+@section('meta_keywords', 'USA Visa, Consultancy Nepal, Student Visa, Immigration')
+@section('meta_author', 'Next Page Pvt. Ltd.')
 @section('content')
 <section class="hero_section h_83vh w_100 flex padding_s5 position_relative">
     <div class="hero_content w_100 h_100 flex_cl justify_fe pd_bottom5">

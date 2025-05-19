@@ -1,5 +1,8 @@
 @extends('essentials.navbar')
 @section('title', 'Contact')
+@section('meta_description', 'Get in touch with Next Page Pvt. Ltd., your trusted partner for USA visa services in Nepal.')
+@section('meta_keywords', 'Contact Next Page, Visa Assistance Nepal, USA Visa Nepal')
+@section('meta_author', 'Next Page Pvt. Ltd.')
 @section('content')
 <section class="contact_page w_100 h_100vh grid col_2 justify_sb gap_2vw padding_s5 primary_font padding_v10">
     <div class="left_contact_page">

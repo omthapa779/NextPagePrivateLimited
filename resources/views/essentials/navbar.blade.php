@@ -8,6 +8,28 @@
     <link rel="stylesheet" href="{{ asset('./css/specifics.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="shortcut icon" href="{{ asset('./resources/favicon.ico') }}" type="image/x-icon">
+
+    <script type="application/ld+json">
+       {!! json_encode([
+            '@context' => 'https://schema.org',
+            '@type' => 'Organization',
+            'name' => config('app.name'),
+            'url' => 'https://nextpage.com.np',
+            'logo' => asset('./resources/images/logo.png'),
+            'contactPoint' => [
+                '@type' => 'ContactPoint',
+                'telephone' => '+977-014547347',
+                'contactType' => 'Customer Service',
+                'areaServed' => 'NP',
+                'availableLanguage' => 'English'
+            ]
+        ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+    </script>
+
+    {{-- Meta Tags --}}
+    <meta name="description" content="@yield('meta_description', 'Next Page Pvt. Ltd. is the leading USA visa consultancy firm in Nepal.')">
+    <meta name="keywords" content="@yield('meta_keywords', 'USA Visa, Consultancy, Nepal, Immigration, Student Visa')">
+    <meta name="author" content="@yield('meta_author', 'Next Page Pvt. Ltd.')">
 </head>
 <body>
 <div class="menu_extended w_100 bg_light overflow_hidden">
@@ -21,7 +43,7 @@
     <div class="menu_extended_links w_100 h_83vh flex_cl justify_sb padding_v10 align_c primary_font">
         <div class="menu_links w_100 h_100 flex_cl justify_c align_c gap_1vw">
             <a href="/"><a href="/"><h2 class="font_w500 text_ac black_color">Home</h2></a>
-            <a href="/about"><h2 class="font_w500 text_ac black_color">About</h2></a>
+            <a href="/about-us"><h2 class="font_w500 text_ac black_color">About</h2></a>
             <a href="/services"><h2 class="font_w500 text_ac black_color">Services</h2></a>
             <a href="/FAQ"><h2 class="font_w500 text_ac black_color">FAQ</h2></a>
             <a href="/Contact"><h2 class="font_w500 text_ac black_color">Contact</h2></a>
