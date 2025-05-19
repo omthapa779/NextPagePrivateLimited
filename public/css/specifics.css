@@ -1,5 +1,6 @@
 .image_holder{
     position: absolute;
+    pointer-events: none;
 }
 /* buttons */
 .custom_button {
@@ -150,6 +151,31 @@
     padding: 0vh 0.5vw;
 }
 
+/* service page */
+.service_page_holder{
+    position: relative;
+    z-index: 100;
+}
+.service_page_card{
+    background-color: white;
+    border-radius: 7px;
+    padding: 3vh 2vw;
+    grid-template-columns: 1fr 1fr 1.2fr;
+}
+.service_page_card img {
+    aspect-ratio: 16/9;
+}
+
+/* FAQ */
+.faq{
+    min-height: 100vh;
+}
+.menu_extended{
+    position: absolute;
+    z-index: 999;
+    height: 0vh;
+}
+
 @media (max-width: 999px){
     .mobile_menu {
         display: block !important;
@@ -160,7 +186,7 @@
     .image_holder {
         opacity: 30%;
     }
-    .navbar {
+    .navbar, .menu_extended_navbar{
         padding: 3vh 5vw;
     }
     .hero_content {
@@ -216,6 +242,22 @@
         height: 20%;
         margin-top: 70%;
         padding: 0vh 2vw;
+    }
+    .left_service_hero {
+        padding: 0 !important;
+        margin-top: 5vh;
+    }
+    .service_page_card img {
+        display: none;
+    }
+    .service_page_card {
+        padding: 3vh 5vw;
+        grid-template-columns: 1fr 1.3fr;
+        height: fit-content;
+    }
+
+    .contact_page {
+        height: fit-content;
     }
 }
 
@@ -283,5 +325,11 @@
     }
     .team_content_holder {
         margin-top: 60%;
+    }
+    .service_page_card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .service_hero_description{
+        width: 100% !important;
     }
 }

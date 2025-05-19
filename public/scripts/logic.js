@@ -73,3 +73,22 @@ function FAQ() {
 
 
 FAQ();
+
+function menu_extend(){
+    gsap.to('.menu_extended',{
+        height: '100vh',
+        duration: 0.6,
+        ease: "power2.out"
+    });
+    document.body.style.overflow = 'hidden';
+    document.documentElement.style.overflow = 'hidden'; // important!
+};
+function menu_close(){
+    gsap.to('.menu_extended',{
+        height: '0vh',
+        duration: 0.6,
+        ease: "power2.out"
+    });
+    document.body.style.overflow = 'auto';
+    document.documentElement.style.overflow = 'auto'; // restore
+};

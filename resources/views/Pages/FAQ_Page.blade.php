@@ -1,4 +1,8 @@
-<section class="faq w_100 h_fc flex_cl justify_c padding_s5 primary_font" id="FAQ">
+@extends('essentials.navbar')
+@section('title', 'FAQ')
+@section('content')
+
+<section class="faq w_100 h_fc flex_cl justify_c padding_s5 primary_font">
     <h1 class="line_h95">Frequently Asked <br> <span class="secondary_color">Questions</span></h1>
 
     <div class="faq_holder w_100 h_fc flex_cl mtop_5vh">
@@ -40,3 +44,5 @@
         </div>
     </div>
 </section>
+
+@endsection

@@ -1,4 +1,4 @@
-<section class="contact w_100 h_100vh padding_s5 grid col_2 gap_2vw justify_sb primary_font">
+<section class="contact w_100 h_100vh padding_s5 grid col_2 gap_2vw justify_sb primary_font" id="Contact_section">
     <div class="contact_section w_100 h_100 flex_cl justify_c">
         <h1>Get In Touch</h1>
 

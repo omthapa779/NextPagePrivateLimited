@@ -1,4 +1,4 @@
- <form action="#" class="w_100 h_fc flex_cl gap_1vw">
+ <form  action="https://formsubmit.co/nextpageusa@gmail.com" method="POST" class="w_100 h_fc flex_cl gap_1vw">
     <input type="text" name="fullName" class="input w_100" placeholder="Full Name">
     <input type="email" name="email" class="input w_100" placeholder="Email Address">
     <div class="input_two w_100 h_fc grid col_2 gap_1vw">

@@ -5,8 +5,8 @@
     <div class="hero_content w_100 h_100 flex_cl justify_fe pd_bottom5">
         <h1 class="primary_font line_h90">THE LEADING <br> <span class="secondary_color ">USA VISA</span> <br>CONSULTANCY</h1>
         <div class="button_holder_hero flex gap_1vw mtop_2vh">
-            <x-button variant="button_primary">Get Started</x-button>
-            <x-button variant="button_secondary">Book a Consultation</x-button>
+            <a href="/Contact"><x-button variant="button_primary">Get Started</x-button></a>
+            <a href="/#Contact_section"><x-button variant="button_secondary">Book a Consultation</x-button></a>
         </div>
     </div>
     <div class="image_holder w_100 h_100 flex_cl justify_fe align_fe">
