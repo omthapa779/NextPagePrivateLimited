@@ -170,6 +170,11 @@ h5{
     justify-self: flex-end;
 }
 
+/* border radius */
+.bradius_s{
+    border-radius: 7px;
+}
+
 /* aligns */
 .align_c{
     align-items: center;
@@ -187,6 +192,9 @@ h5{
 /* columns */
 .col_2{
     grid-template-columns: repeat(2, 1fr);
+}
+.col_3{
+    grid-template-columns: repeat(3, 1fr);
 }
 .col_4{
     grid-template-columns: repeat(4, 1fr);
@@ -303,6 +311,9 @@ h5{
 }
 .obj_cover{
     object-fit: cover;
+}s
+.obj_pos_c{
+    object-position: center;
 }
 
 /* positions */

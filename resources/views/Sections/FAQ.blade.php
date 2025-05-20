@@ -1,11 +1,11 @@
 <section class="faq w_100 h_fc flex_cl justify_c padding_s5 primary_font" id="FAQ">
-    <h1 class="line_h95">Frequently Asked <br> <span class="secondary_color">Questions</span></h1>
+    <h2 class="line_h95">Frequently Asked <br> <span class="secondary_color">Questions</span></h2>
 
     <div class="faq_holder w_100 h_fc flex_cl mtop_5vh">
         <div class="faq_card w_100 h_10vh overflow_hidden">
             <div class="question w_100 h_10vh grid col_middle_3 align_c justify_sb">
                 <h3 class="font_w500 w_100 question_title">01</h3>
-                <h3 class="font_w500 w_100 question_title" >How long does it take to process a visa?</h3>
+                <h4 class="font_w500 w_100 question_title" >How long does it take to process a visa ?</h4>
                 <h3 class="font_w500 w_100 flex justify_fe"><i class="ri-add-line"></i></h3>
             </div>
             <div class="answer w_100 grid col_middle_3 align_c justify_sb">
@@ -17,7 +17,7 @@
         <div class="faq_card w_100 h_10vh overflow_hidden">
             <div class="question w_100 h_10vh grid col_middle_3 align_c justify_sb">
                 <h3 class="font_w500 w_100 question_title">02</h3>
-                <h3 class="font_w500 w_100 question_title" >Do you guarantee visa approval?</h3>
+                <h4 class="font_w500 w_100 question_title" >Do you guarantee visa approval ?</h4>
                 <h3 class="font_w500 w_100 flex justify_fe"><i class="ri-add-line"></i></h3>
             </div>
              <div class="answer w_100 grid col_middle_3 align_c justify_sb">
@@ -29,7 +29,7 @@
         <div class="faq_card w_100 h_10vh overflow_hidden">
             <div class="question w_100 h_10vh grid col_middle_3 align_c justify_sb">
                 <h3 class="font_w500 w_100 question_title">03</h3>
-                <h3 class="font_w500 w_100 question_title" >Can i consult before i commit ? </h3>
+                <h4 class="font_w500 w_100 question_title" >Can i consult before i commit ? </h4>
                 <h3 class="font_w500 w_100 flex justify_fe"><i class="ri-add-line"></i></h3>
             </div>
              <div class="answer w_100 grid col_middle_3 align_c justify_sb">

@@ -37,4 +37,6 @@
 
 @include('Sections.Contact')
 
+@include('Sections.Gallery')
+
 @endsection

@@ -58,7 +58,7 @@
 
         <div class="link_holder_nav flex align_c h_100 gap_1vw primary_font ">
             <a href="/"><a href="/"><h4 class="font_w500 black_color">Home</h4></a>
-            <a href="/about"><h4 class="font_w500 black_color">About</h4></a>
+            <a href="/about-us"><h4 class="font_w500 black_color">About</h4></a>
             <a href="/services"><h4 class="font_w500 black_color">Services</h4></a>
             <a href="/FAQ"><h4 class="font_w500 black_color">FAQ</h4></a>
             <a href="/Contact"><h4 class="font_w500 black_color">Contact</h4></a>

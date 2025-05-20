@@ -6,7 +6,7 @@
 @section('content')
 <section class="hero_section w_100 h_83vh primary_font padding_s5 grid col_2 overflow_hidden">
     <div class="left_service_hero w_100 h_100 flex_cl justify_fs padding_v10">
-        <h1 class="line_h100">Our Comprehensive <br> <span class="secondary_color">Visa Solutions</span></h1>
+        <h2 class="line_h100">Our Comprehensive <br> <span class="secondary_color">Visa Solutions</span></h2>
         <h4 class="w_60 font_w500 mtop_5vh service_hero_description ">From tourist to work to student visas, we offer expert guidance tailored to your U.S. immigration goals. Navigate the process with confidence,
             backed by trusted consultants and proven results.</h4>
     </div>

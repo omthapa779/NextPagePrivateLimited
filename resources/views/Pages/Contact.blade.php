@@ -8,7 +8,7 @@
     <div class="left_contact_page">
         <h1 class="line_h95">Let's Get in Touch</h1>
 
-        <h3 class="mtop_5vh">Don't be afraid to say hello to us!</h3>
+        <h4 class="mtop_5vh font_w500">We’re here to help you with your immigration and non-immigration needs.</h4>
 
         <div class="contact_details w_100 mtop_5vh">
             <div class="call_holder">
