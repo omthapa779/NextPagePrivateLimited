@@ -16,11 +16,6 @@
                 <h5 class="font_w500">(+977) 01-4547347</h5>
             </div>
 
-            <div class="whatsapp mtop_2vh">
-                <h4 class="light_color font_w500">Whatsapp</h4>
-                <h5 class="font_w500">(+977) 9844735845</h5>
-            </div>
-
              <div class="office mtop_2vh">
                 <h4 class="light_color font_w500">Office</h4>
                 <h5 class="font_w500">Maharajgunj, Kathmandu, Nepal</h5><br>

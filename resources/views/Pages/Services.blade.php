@@ -7,8 +7,8 @@
 <section class="hero_section w_100 h_83vh primary_font padding_s5 grid col_2 overflow_hidden">
     <div class="left_service_hero w_100 h_100 flex_cl justify_fs padding_v10">
         <h2 class="line_h100">Our Comprehensive <br> <span class="secondary_color">Visa Solutions</span></h2>
-        <h4 class="w_60 font_w500 mtop_5vh service_hero_description ">From tourist to work to student visas, we offer expert guidance tailored to your U.S. immigration goals. Navigate the process with confidence,
-            backed by trusted consultants and proven results.</h4>
+        <h4 class="w_60 font_w500 mtop_5vh service_hero_description ">Whether you're applying for a tourist, work, or student visa, we offer expert guidance tailored to your U.S. immigration goals. Navigate the process with confidence—backed by trusted 
+            consultants and a track record of proven success.</h4>
     </div>
     <div class="service_hero_image w_100 h_100 flex justify_c align_c">
         <img src="{{ asset('./resources/images/services_hero.png') }}" alt="Visa Solutions | Next Page Private Solution" class="h_100 w_100">
@@ -21,10 +21,10 @@
             <h3>4702 <br> [ Regular Processing ]</h3>
         </div>
         <div class="service_description w_100">
-            <h5>* VISA Interview Preparation Included</h5>
+            <h5>* Visa Application Process Include</h5>
             <h5 class="font_w500">- Profile Evaluation</h5>
-            <h5 class="font_w500">- DS-160 Form Filing</h5>
-            <h5 class="font_w500">- CGI Payment Processing</h5>
+            <h5 class="font_w500">- DS 160 Application</h5>
+            <h5 class="font_w500">- US Visa Fee Payment</h5>
             <h5 class="font_w500">- Visa Interview Counselling</h5>
         </div>
         <img src="{{ asset('./resources/images/services/4702.jpg') }}" alt="Visa Preparation | Next Page Private Limited" class="  w_100 obj_cover">
@@ -39,7 +39,7 @@
             <h5 class="font_w500">- Evaluate your Visa Approval Factors</h5>
             <h5 class="font_w500">- Assess Your Denial Risks</h5>
             <h5 class="font_w500">- Custom plan to boost chances of Approval</h5>
-            <h5 class="font_w500">- Counsel about Visa Interview</h5>
+            <h5 class="font_w500">- Visa Interview Counseling</h5>
             <h5 class="font_w500">- Pre Departure Orientation</h5>
             <h5 class="font_w500">- Post Departure Assistance if needed</h5>
         </div>
@@ -62,8 +62,8 @@
             <h3>4704 <br> [ Renewal of Visa ]</h3>
         </div>
         <div class="service_description w_100">
-            <h5>* DS-150 Processing</h5>
-            <h5 class="font_w500">- CGI Payment Processing</h5>
+            <h5>* DS-160 Processing</h5>
+            <h5 class="font_w500">- US Visa Fee Payment Processing </h5>
             <h5 class="font_w500">- Assess Your Denial Risks</h5>
             <h5 class="font_w500">- Interview Waiver Processing</h5>
             <h5 class="font_w500">- Dropbox Documentation</h5>
@@ -81,8 +81,10 @@
             <h5 class="font_w500">- SB-1 Returning Visa</h5>
             <h5 class="font_w500">- Green card Abandonment</h5>
             <h5 class="font_w500">- Spouse/Marriage Visa (K1, IR1)</h5>
-            <h5 class="font_w500">- Green card Processing</h5>
+            <h5 class="font_w500">- Green Card & Citizenship documentation /Counseling </h5>
             <h5 class="font_w500">- Diversity Visa (DV) Processing</h5>
+            <h5 class="font_w500">- Petition Filing: I-130 / I 864 Forms </h5>
+            <h5 class="font_w500">- All US DS Forms  </h5>
         </div>
         <img src="{{ asset('./resources/images/services/greencard.jpg') }}" alt="Green Card Processing | Next Page Private Limited" class="  w_100 obj_cover">
     </div>

@@ -20,8 +20,8 @@
     <div class="about_content grid row_2 w_100 h_100 align_c primary_font padding_s5">
         <h1 class="line_h90"><span class="secondary_color">ABOUT</span> <br> NEXT PAGE</h1>
         <div class="about_paragraph w_100 h_100 flex justify_fe align_c">
-            <h4 class="primary_font w_40 font_w500">Next Page Pvt. Ltd. stands as Nepal's premier U.S. visa consultancy, dedicated to simplifying the complex visa process. 
-                Our team of experts ensures personalized guidance tailored to your unique journey.</h4>
+            <h4 class="primary_font w_40 font_w500">Next Page Pvt. Ltd. is Nepal’s leading U.S. visa consultancy, committed to simplifying the complexities of the visa process. 
+                Our team of experts provides personalized guidance tailored to each individual's journey.</h4>
         </div>
     </div>
     <div class="about_image w_100 h_100 flex justify_fe padding_s5 padding_v10">

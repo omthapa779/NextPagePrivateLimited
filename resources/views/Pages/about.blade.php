@@ -6,11 +6,15 @@
 @section('content')
 <section class="about_us w_100 h_83vh padding_s5 primary_font grid col_2 justify_sb gap_5vw">
     <div class="left_side w_100 h_100 flex_cl justify_c gap_2vw">
-        <h2 class="line_h95">About <br> <span class="secondary_color">Next Page</span></h2>
-        <h4 class="font_w500">At NextPage, we simplify the complex world of immigration and global opportunities. Whether you're looking to move to the U.S.,
-            apply for a tourist or student visa, or expand your business, our team of expert consultants provides clear, actionable guidance tailored to your needs.</h4>
+        <h2 class="line_h95">About <br> <span class="secondary_color">next page</span></h2>
+        <h5 class="font_w500">At NextPage, we simplify the complex world of immigration and global mobility. Whether you're planning to move to the U.S., apply for a tourist or student visa,
+             explore international business opportunities, pursue employment, or file a family-based petition, our team of experienced consultants provides clear, personalized guidance 
+             every step of the way. <br><br>
+            We provide end-to-end services for all U.S. visa categories, covering every stage of the process—from initial consultation to final approval.
+            </h5>
 
             <ul>
+                <h5>Our complete service includes:</h5><br>
                 <li><h5 class="font_w500 light_color ">Green Card Applications</h5></li>
                 <li><h5 class="font_w500 light_color ">Work Visas (H-1B, L-1, E. etc.)</h5></li>
                 <li><h5 class="font_w500 light_color ">Family-Based Immigration</h5></li>
@@ -26,10 +30,13 @@
 
 <section class="mission_vision w_100 padding_v10 primary_font padding_s5 grid col_2 justify_sb bg_light">
     <h2 class="line_h95">Mission & <br> Values</h2>
-    <h5 class="font_w500">Our mission is to ensure the secure and efficient entry of foreign nationals by processing visa applications in strict accordance with national immigration laws.
+    <h5 class="font_w500">We believe in treating our work as worship, our workplace as a temple, and our clients with the same devotion and respect one would offer to the divine.
+Our vision is to become Nepal’s most trusted, innovative, and authentic U.S. immigration consultancy—empowering individuals and families to access global opportunities with confidence, clarity, and success.
+
         <br><br>
-        Our vision is to deliver exceptional outcomes for every individual who chooses our services. We are committed to upholding the highest standards of excellence in all our endeavors, creating a positive and lasting impact for our clients..
-    </h5>
+       At Next Page Pvt. Ltd., our mission is to simplify the U.S. visa journey through expert guidance, personalized support, and unwavering ethical standards. We are committed to providing comprehensive, end-to-end immigration solutions—whether for study, work, travel, or permanent relocation—helping our clients achieve their American dream with confidence and peace of mind.
+       <br> <br>
+       We proudly serve clients across Nepal and around the world.
 </section>
 
 @include('Sections.WhyUs')

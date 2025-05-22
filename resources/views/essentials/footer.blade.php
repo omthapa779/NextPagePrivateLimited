@@ -25,7 +25,6 @@
             <div class="link_holder mtop_2vh ">
                 <a href="/Contact"><h5 class="font_w400 white_color"><i class="ri-map-pin-2-line"></i> Maharajgunj, Kathmandu</h5></a>
                 <a href="tel:+977014547347"><h5 class="font_w400 white_color"> <i class="ri-phone-line"></i> +977-014547347</h5></a>
-                <a href="https://wa.me/9779844735845" target="_blank"><h5 class="font_w400 white_color"><i class="ri-whatsapp-line"></i> +977-9844735845</h5></a>
                 <a href="mailto:nextpageusa@gmail.com"><h5 class="font_w400 white_color"><i class="ri-mail-ai-line"></i> nextpageusa@gmail.com</h5></a>
             </div>
         </div>
