@@ -206,7 +206,7 @@ h5{
     grid-template-columns: 2fr 1fr;
 }
 .col_left_3{
-    grid-template-columns: 1.5fr 0.5fr 0.5fr;
+    grid-template-columns: 1.5fr 0.5fr 0.8fr;
 }
 .col_right_3{
     grid-template-columns: 1fr 1fr 1.5fr;
@@ -236,6 +236,9 @@ h5{
 }
 .mleft_5{
     margin-left: 5%;
+}
+.mleft_10{
+    margin-left: 10%;
 }
 .mleft_15{
     margin-left: 15%;
@@ -323,6 +326,9 @@ h5{
 
 .bg_light{
     background-color: rgb(241, 241, 241);
+}
+.bg_white{
+    background-color: var(--white_color);
 }
 
 /* opacity */

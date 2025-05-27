@@ -152,18 +152,18 @@
 }
 
 /* service page */
-.service_page_holder{
+.service_page_holder, .immigrant{
     position: relative;
     z-index: 100;
 }
-.service_page_card{
-    background-color: white;
+.package_card{
+    background-color: var(--white_color);
     border-radius: 7px;
-    padding: 3vh 2vw;
-    grid-template-columns: 1fr 1fr 1.2fr;
+    padding: 2.5vh 2vw;
 }
-.service_page_card img {
-    aspect-ratio: 16/9;
+.general_services{
+    padding: 2.5vh 2vw;
+    border-radius: 7px;
 }
 
 /* FAQ */
@@ -247,14 +247,6 @@
         padding: 0 !important;
         margin-top: 5vh;
     }
-    .service_page_card img {
-        display: none;
-    }
-    .service_page_card {
-        padding: 3vh 5vw;
-        grid-template-columns: 1fr 1.3fr;
-        height: fit-content;
-    }
 
     .contact_page {
         height: fit-content;
@@ -326,10 +318,14 @@
     .team_content_holder {
         margin-top: 60%;
     }
-    .service_page_card {
+
+    .packages_holder {
         grid-template-columns: repeat(1, 1fr);
     }
-    .service_hero_description{
-        width: 100% !important;
+    .package_card {
+        padding: 2.5vh 5vw
+    }
+    .package_card ul{
+        margin-top: 2vh !important;
     }
 }

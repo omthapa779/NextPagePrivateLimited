@@ -5,6 +5,6 @@
         @include('components.Inquiry_form')
     </div>
     <div class="contact_image w_100 h_100 overflow_hidden">
-        <img src="{{ asset('./resources/images/contact_image.png') }}" alt="Contact Photo | Next Page Private Limited" class="w_100 h_100 obj_cover">
+        <img src="{{ asset('./resources/images/contact_image.png') }}" alt="Contact Photo | next Page Private Limited" class="w_100 h_100 obj_cover">
     </div>
 </section>

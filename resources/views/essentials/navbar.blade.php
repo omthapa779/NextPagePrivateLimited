@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield ('title', ' ') . Next Page Private Limited </title>
+    <title>@yield ('title', ' ') . next Page Private Limited </title>
     <link rel="stylesheet" href="{{ asset('./css/Global.css') }}">
     <link rel="stylesheet" href="{{ asset('./css/specifics.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
@@ -27,14 +27,14 @@
     </script>
 
     {{-- Meta Tags --}}
-    <meta name="description" content="@yield('meta_description', 'Next Page Pvt. Ltd. is the leading USA visa consultancy firm in Nepal.')">
+    <meta name="description" content="@yield('meta_description', 'next Page Pvt. Ltd. is the leading USA visa consultancy firm in Nepal.')">
     <meta name="keywords" content="@yield('meta_keywords', 'USA Visa, Consultancy, Nepal, Immigration, Student Visa')">
-    <meta name="author" content="@yield('meta_author', 'Next Page Pvt. Ltd.')">
+    <meta name="author" content="@yield('meta_author', 'next Page Pvt. Ltd.')">
 </head>
 <body>
 <div class="menu_extended w_100 bg_light overflow_hidden">
     <div class="menu_extended_navbar w_100 h_15vh padding_s5 flex justify_sb mtop_2vh">
-         <img src="{{ asset('./resources/images/logo.png') }}" alt="Logo for Next Page Pvt. Ltd." class="h_100">
+         <img src="{{ asset('./resources/images/logo.png') }}" alt="Logo for next Page Pvt. Ltd." class="h_100">
 
         <div class="link_holder_nav flex align_c h_100 gap_1vw primary_font ">
             <h2 class="font_w500 black_color mobile_menu" onclick="menu_close()"><i class="ri-close-large-line"></i></h2>
@@ -49,12 +49,12 @@
             <a href="/Contact"><h2 class="font_w500 text_ac black_color">Contact</h2></a>
         </div>
         <div class="copyright_menu mtop_5vh">
-            <h4>Next Page Private Limited</h4>
+            <h4>next Page Private Limited</h4>
         </div>
     </div>
 </div>
     <div class="navbar w_100 h_15vh padding_s5 flex justify_sb mtop_2vh">
-        <img src="{{ asset('./resources/images/logo.png') }}" alt="Logo for Next Page Pvt. Ltd." class="h_100">
+        <img src="{{ asset('./resources/images/logo.png') }}" alt="Logo for next Page Pvt. Ltd." class="h_100">
 
         <div class="link_holder_nav flex align_c h_100 gap_1vw primary_font ">
             <a href="/"><a href="/"><h4 class="font_w500 black_color">Home</h4></a>

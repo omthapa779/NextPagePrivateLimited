@@ -1,8 +1,8 @@
 @extends('essentials.navbar')
 @section('title', 'FAQ')
-@section('meta_description', 'Find answers to frequently asked questions about USA visa services and application processes with Next Page Pvt. Ltd.')
-@section('meta_keywords', 'Visa FAQ, USA Visa Questions, Next Page Pvt. Ltd., Visa Assistance Nepal')
-@section('meta_author', 'Next Page Pvt. Ltd.')
+@section('meta_description', 'Find answers to frequently asked questions about USA visa services and application processes with next Page Pvt. Ltd.')
+@section('meta_keywords', 'Visa FAQ, USA Visa Questions, next Page Pvt. Ltd., Visa Assistance Nepal')
+@section('meta_author', 'next Page Pvt. Ltd.')
 @section('content')
 
 <section class="faq w_100 h_fc flex_cl justify_c padding_s5 primary_font padding_v10">
